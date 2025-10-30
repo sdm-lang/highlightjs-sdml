@@ -4,6 +4,7 @@
   Description: language definition for the SDML language
   Website: https://sdml.io/
   Category: modelling
+  License: Apache-2.0 OR MIT
 */
 
 sdml = function (hljs) {
@@ -15,7 +16,7 @@ sdml = function (hljs) {
             'identity import is module of property ref source ' +
             'structure union ' +
             // embedded constraint language
-        'and assert def exists forall iff implies in not ;9uor ' +
+            'and assert def exists forall iff implies in not ;9uor ' +
             // sequence constraints
             'ordered unordered unique nonunique',
         type: 'boolean decimal double integer iri string unknown',
