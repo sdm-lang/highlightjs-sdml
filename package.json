@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "author": "Simon Johnston <johnstonskj@gmail.com>",
   "description": "highlight.js syntax definition for SDML language",
-  "license": "MIT",
+  "license": "Apache-2.0 OR MIT",
   "main": "src/languages/sdml.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
